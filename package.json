@@ -1,0 +1,57 @@
+{
+  "name": "a-filter",
+  "version": "0.0.1",
+  "description": "A simple filter. Recursively filtering an object or array.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "test": "mocha test.js",
+    "test:cov": "nyc npm run test",
+    "test:loop": "while npm test --silent; do :; done"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "a-filter": "file:.",
+    "nyc": "^14.1.1",
+    "xo": "^0.25.3"
+  },
+  "keywords": [
+    "filter",
+    "recursive",
+    "object",
+    "array"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "author": "dailyrandomphoto <dailyrandomphoto@gmail.com> (https://www.dailyrandomphoto.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dailyrandomphoto/a-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dailyrandomphoto/a-filter/issues"
+  },
+  "homepage": "https://github.com/dailyrandomphoto/a-filter#readme",
+  "xo": {
+    "space": 2,
+    "overrides": [
+      {
+        "files": "test.js",
+        "envs": [
+          "node",
+          "mocha"
+        ]
+      }
+    ]
+  }
+}
