@@ -19,7 +19,7 @@
     "nyc": "^15.1.0",
     "prettier": "latest",
     "unlink-self": "latest",
-    "xo": "^0.35.0"
+    "xo": "^0.38.1"
   },
   "keywords": [
     "filter",
